@@ -1,0 +1,13 @@
+<div class="courses-countainer">
+    <div class="heading-container">
+        <h2>All Courses</h2>
+    </div>
+    <div class="all-courses-container">
+        <div *ngFor="let course of courses">
+            <app-product-card [course]="course" (cardDetailId)="goToDetailPage($event)"></app-product-card>
+        </div>
+        <div class="back-home">
+            <app-backhome></app-backhome>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,56 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    border-bottom: 3px solid gray;
+}
+.heading-container{
+    margin:18px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.forms-container{
+    
+    margin: 12px 35px;
+    padding: 12px 12px;
+}
+input[type=text]{
+    margin: 5px 0px;
+    width: 420px;
+    height: 40px;
+    border: 2px solid gray;
+    border-radius: 2px;
+    background-color: lightgray;
+    padding: 18px;
+    font-size: 17px;
+}
+textarea{
+    margin: 5px 0px;
+    border: 2px solid gray;
+    border-radius: 2px;
+    padding: 18px;
+    font-size: 17px;
+    background-color: lightgray;
+    
+}
+select{
+    margin: 5px 0px;
+    width: 420px;
+    height: 40px;
+    border: 2px solid gray;
+    border-radius: 2px;
+    font-size: 17px;
+    padding-left: 18px;
+    background-color: lightgray;
+}
+input[type=submit]{
+    background-color: green;
+    width: 80px;
+    height: 40px;
+    border: none;
+    font-size: 17px;
+    color: white;
+    padding: 12px;
+}
+.back{}

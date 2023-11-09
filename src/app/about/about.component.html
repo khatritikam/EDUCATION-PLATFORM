@@ -1,0 +1,20 @@
+<div class="about-container">
+    <div class="heading-container">
+        <h1>About Us Page</h1>
+        <p>Some text about who we are and what we do. <br>
+            Resize the browser window to see that this page is responsive by the way.
+        </p>
+    </div>
+    <div class="our-team">
+        <h2>Our Team</h2>
+    </div>
+    <div class="team-container">
+        <div class="team-card" *ngFor="let team of teams">
+            <app-team-card [team]="team"></app-team-card>
+        </div>
+        <div class="back-btn">
+            <app-backhome></app-backhome>
+        </div>
+    </div>
+
+</div>

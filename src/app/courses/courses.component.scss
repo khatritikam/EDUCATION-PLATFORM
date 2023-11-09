@@ -1,0 +1,23 @@
+.courses-countainer{
+    background-color: lightgray;
+    border-bottom: 3px solid gray;
+    justify-content: center;
+    margin: 0px;
+}
+.heading-container{
+    padding: 12px 0px;
+    text-align: center;
+}
+.all-courses-container{
+    display: inline-flex;
+    justify-content:space-between ;
+    align-items: center;
+    flex-flow: wrap;
+    width: 100%;
+}
+.back-home{
+    margin-left: 648px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}

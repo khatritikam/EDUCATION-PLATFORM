@@ -1,0 +1,14 @@
+<div class="home-container">
+    <div class="heading-container">
+        <h1>Learn Software</h1>
+        <h1>courses online for free.</h1>
+    </div>
+    <div class="pop-courses">
+        <h2>Popular Courses</h2>
+    </div>
+    <div class="courses-container">
+        <div class="courses-card" *ngFor="let course of courses">
+            <app-product-card [course]="course" (cardDetailId)="goToDetailPage($event)"></app-product-card>
+        </div>
+    </div>
+</div>

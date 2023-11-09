@@ -1,0 +1,28 @@
+<div class="contact-container">
+    <div class="heading-container">
+        <h2>Contact Us</h2>
+        <p>Swing by for a cup of coffee, or leave us a message.</p>
+    </div>
+    <div class="forms-container">
+        <form action="">
+            <label for="fname">First Name</label><br>
+            <input type="text" placeholder="Your Name.." [(ngModel)]="firstName"><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" placeholder="Your Last Name.." [(ngModel)]="lastName"><br>
+            <label for="country">Country</label><br>
+            <select name="country" id="Countrys" [(ngModel)]=" country"> 
+                <option value="india">India</option>
+                <option value="germany">Germany</option>
+                <option value="united states">United States</option>
+                <option value="japan">Japan</option>
+                <option value="australia">Australia</option>
+            </select><br>
+            <label for="subject">Subject</label><br>
+           <textarea name="some-txt" id="" cols="39" rows="8" placeholder="Write Something.." [(ngModel)]="subject" ></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div>
+        <app-backhome></app-backhome>
+    </div>
+</div>

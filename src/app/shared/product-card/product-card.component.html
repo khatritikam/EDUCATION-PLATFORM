@@ -1,0 +1,20 @@
+<div class="courses-card">
+            <div>
+                <img src="{{course.image}}" style="width: 230px; height: 140px; margin-top: 2px;">
+            </div>
+            <div class="course-name">
+                <h3>{{course.name}}</h3>
+            </div>
+            <div class="course-description">
+                <p>{{course.description.slice(0,80)}}...</p>
+            </div>
+            <div class="details" >
+                <div class="course-type" [ngStyle]="{color: course.type === 'Free' ? 'Green': 'Red'} ">{{course.type}}</div>
+                <div class="course-price"><b>Price:</b>${{course.price}}</div>
+            </div>
+            <div class="course-button">
+                <button class="btn">Buy Now</button>
+                <button class="btn-d" (click)="showDetail(course.id)">Show Deatails</button>
+            </div>
+</div>
+    

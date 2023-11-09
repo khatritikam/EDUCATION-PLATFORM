@@ -1,0 +1,41 @@
+.course-container{
+    padding: 12px 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightgray;
+    justify-content: space-around;
+
+}
+.cuorse-details{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 105px;
+    font-size: 20px;
+}
+.img{
+    padding: 5px 110px;
+}
+.price{
+    padding: 0px 105px;
+}
+.des{
+    padding: 0px 105px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:gray;
+    padding: 12px 38px;
+    float: left;
+    border: none;
+    border-radius: 5px;
+}
+.edit-txt{
+    width: 380px;
+    height: 35px;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
